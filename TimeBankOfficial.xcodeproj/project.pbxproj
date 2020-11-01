@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8674EE99A5509B013FFF5FDF /* Pods_TimeBankOfficialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B11EE08672E829E8EAEB35A /* Pods_TimeBankOfficialUITests.framework */; };
+		87933DB3E6D1C3B877F58A67 /* Pods_TimeBankOfficialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B6202939E1D7A18FA27A31 /* Pods_TimeBankOfficialTests.framework */; };
 		D502F7FD2262755D00085DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502F7FC2262755D00085DE3 /* AppDelegate.swift */; };
-		D502F7FF2262755D00085DE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502F7FE2262755D00085DE3 /* ViewController.swift */; };
 		D502F8022262755D00085DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D502F8002262755D00085DE3 /* Main.storyboard */; };
 		D502F8042262755F00085DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D502F8032262755F00085DE3 /* Assets.xcassets */; };
 		D502F8072262755F00085DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D502F8052262755F00085DE3 /* LaunchScreen.storyboard */; };
 		D502F8122262755F00085DE3 /* TimeBankOfficialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502F8112262755F00085DE3 /* TimeBankOfficialTests.swift */; };
 		D502F81D2262755F00085DE3 /* TimeBankOfficialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502F81C2262755F00085DE3 /* TimeBankOfficialUITests.swift */; };
+		D502F82D2262840800085DE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502F82C2262840800085DE3 /* LoginViewController.swift */; };
+		D502F82F2263B57100085DE3 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502F82E2263B57100085DE3 /* homeViewController.swift */; };
+		D502F8312263B77200085DE3 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D502F8302263B77200085DE3 /* signupViewController.swift */; };
+		D54AA9412267B79B00070F9F /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54AA9402267B79B00070F9F /* JobsViewController.swift */; };
+		D54AA97F226EADEC00070F9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D54AA97E226EADEC00070F9F /* GoogleService-Info.plist */; };
+		D588A4802270F255008EAB31 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D588A47F2270F255008EAB31 /* ProfileViewController.swift */; };
+		D588A4832273E445008EAB31 /* requestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D588A4822273E445008EAB31 /* requestViewController.swift */; };
+		EA57C6157EA4E6E28C0483AC /* Pods_TimeBankOfficial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486C43604B550C52D71439B8 /* Pods_TimeBankOfficial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		163CFB843106CDE6362581CB /* Pods-TimeBankOfficialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeBankOfficialUITests.debug.xcconfig"; path = "Target Support Files/Pods-TimeBankOfficialUITests/Pods-TimeBankOfficialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		486C43604B550C52D71439B8 /* Pods_TimeBankOfficial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeBankOfficial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721B61E6DC2C28597BFF91CC /* Pods-TimeBankOfficialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeBankOfficialTests.debug.xcconfig"; path = "Target Support Files/Pods-TimeBankOfficialTests/Pods-TimeBankOfficialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B11EE08672E829E8EAEB35A /* Pods_TimeBankOfficialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeBankOfficialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962E910DE26DD8822F120397 /* Pods-TimeBankOfficialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeBankOfficialUITests.release.xcconfig"; path = "Target Support Files/Pods-TimeBankOfficialUITests/Pods-TimeBankOfficialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4F76869859EAD7CE6B58C2B /* Pods-TimeBankOfficial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeBankOfficial.debug.xcconfig"; path = "Target Support Files/Pods-TimeBankOfficial/Pods-TimeBankOfficial.debug.xcconfig"; sourceTree = "<group>"; };
 		D502F7F92262755D00085DE3 /* TimeBankOfficial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeBankOfficial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D502F7FC2262755D00085DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D502F7FE2262755D00085DE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D502F8012262755D00085DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D502F8032262755F00085DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D502F8062262755F00085DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		D502F8182262755F00085DE3 /* TimeBankOfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeBankOfficialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D502F81C2262755F00085DE3 /* TimeBankOfficialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBankOfficialUITests.swift; sourceTree = "<group>"; };
 		D502F81E2262755F00085DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D502F82C2262840800085DE3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D502F82E2263B57100085DE3 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		D502F8302263B77200085DE3 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		D54AA9402267B79B00070F9F /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		D54AA97E226EADEC00070F9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/TimeBankOfficial/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D588A47F2270F255008EAB31 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D588A4822273E445008EAB31 /* requestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requestViewController.swift; sourceTree = "<group>"; };
+		D9B6202939E1D7A18FA27A31 /* Pods_TimeBankOfficialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeBankOfficialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA80CACB8AED1B318CC5B394 /* Pods-TimeBankOfficial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeBankOfficial.release.xcconfig"; path = "Target Support Files/Pods-TimeBankOfficial/Pods-TimeBankOfficial.release.xcconfig"; sourceTree = "<group>"; };
+		EF5E8DB6DF1F66B5F3B5BCFD /* Pods-TimeBankOfficialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeBankOfficialTests.release.xcconfig"; path = "Target Support Files/Pods-TimeBankOfficialTests/Pods-TimeBankOfficialTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA57C6157EA4E6E28C0483AC /* Pods_TimeBankOfficial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87933DB3E6D1C3B877F58A67 /* Pods_TimeBankOfficialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8674EE99A5509B013FFF5FDF /* Pods_TimeBankOfficialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32C8E51C7146737795FB0DD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F76869859EAD7CE6B58C2B /* Pods-TimeBankOfficial.debug.xcconfig */,
+				EA80CACB8AED1B318CC5B394 /* Pods-TimeBankOfficial.release.xcconfig */,
+				721B61E6DC2C28597BFF91CC /* Pods-TimeBankOfficialTests.debug.xcconfig */,
+				EF5E8DB6DF1F66B5F3B5BCFD /* Pods-TimeBankOfficialTests.release.xcconfig */,
+				163CFB843106CDE6362581CB /* Pods-TimeBankOfficialUITests.debug.xcconfig */,
+				962E910DE26DD8822F120397 /* Pods-TimeBankOfficialUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7E894C49291BC73B7F3523D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				486C43604B550C52D71439B8 /* Pods_TimeBankOfficial.framework */,
+				D9B6202939E1D7A18FA27A31 /* Pods_TimeBankOfficialTests.framework */,
+				7B11EE08672E829E8EAEB35A /* Pods_TimeBankOfficialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D502F7F02262755D00085DE3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				D502F8102262755F00085DE3 /* TimeBankOfficialTests */,
 				D502F81B2262755F00085DE3 /* TimeBankOfficialUITests */,
 				D502F7FA2262755D00085DE3 /* Products */,
+				32C8E51C7146737795FB0DD8 /* Pods */,
+				A7E894C49291BC73B7F3523D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +149,13 @@
 		D502F7FB2262755D00085DE3 /* TimeBankOfficial */ = {
 			isa = PBXGroup;
 			children = (
+				D588A4812273DCD6008EAB31 /* viewControllers */,
 				D502F7FC2262755D00085DE3 /* AppDelegate.swift */,
-				D502F7FE2262755D00085DE3 /* ViewController.swift */,
 				D502F8002262755D00085DE3 /* Main.storyboard */,
 				D502F8032262755F00085DE3 /* Assets.xcassets */,
 				D502F8052262755F00085DE3 /* LaunchScreen.storyboard */,
 				D502F8082262755F00085DE3 /* Info.plist */,
+				D54AA97E226EADEC00070F9F /* GoogleService-Info.plist */,
 			);
 			path = TimeBankOfficial;
 			sourceTree = "<group>";
@@ -125,6 +178,19 @@
 			path = TimeBankOfficialUITests;
 			sourceTree = "<group>";
 		};
+		D588A4812273DCD6008EAB31 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D502F82C2262840800085DE3 /* LoginViewController.swift */,
+				D502F82E2263B57100085DE3 /* homeViewController.swift */,
+				D502F8302263B77200085DE3 /* signupViewController.swift */,
+				D54AA9402267B79B00070F9F /* JobsViewController.swift */,
+				D588A47F2270F255008EAB31 /* ProfileViewController.swift */,
+				D588A4822273E445008EAB31 /* requestViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D502F8212262755F00085DE3 /* Build configuration list for PBXNativeTarget "TimeBankOfficial" */;
 			buildPhases = (
+				00B4CDB139C0770CAF00A711 /* [CP] Check Pods Manifest.lock */,
 				D502F7F52262755D00085DE3 /* Sources */,
 				D502F7F62262755D00085DE3 /* Frameworks */,
 				D502F7F72262755D00085DE3 /* Resources */,
+				32BDC4E712EE3F4EDFDE2970 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D502F8242262755F00085DE3 /* Build configuration list for PBXNativeTarget "TimeBankOfficialTests" */;
 			buildPhases = (
+				2259EE636320319117C8963C /* [CP] Check Pods Manifest.lock */,
 				D502F8092262755F00085DE3 /* Sources */,
 				D502F80A2262755F00085DE3 /* Frameworks */,
 				D502F80B2262755F00085DE3 /* Resources */,
@@ -167,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D502F8272262755F00085DE3 /* Build configuration list for PBXNativeTarget "TimeBankOfficialUITests" */;
 			buildPhases = (
+				B4044545D4BB154059E83CAC /* [CP] Check Pods Manifest.lock */,
 				D502F8142262755F00085DE3 /* Sources */,
 				D502F8152262755F00085DE3 /* Frameworks */,
 				D502F8162262755F00085DE3 /* Resources */,
@@ -230,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D502F8072262755F00085DE3 /* LaunchScreen.storyboard in Resources */,
+				D54AA97F226EADEC00070F9F /* GoogleService-Info.plist in Resources */,
 				D502F8042262755F00085DE3 /* Assets.xcassets in Resources */,
 				D502F8022262755D00085DE3 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +322,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00B4CDB139C0770CAF00A711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeBankOfficial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2259EE636320319117C8963C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeBankOfficialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32BDC4E712EE3F4EDFDE2970 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimeBankOfficial/Pods-TimeBankOfficial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimeBankOfficial/Pods-TimeBankOfficial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4044545D4BB154059E83CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeBankOfficialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D502F7F52262755D00085DE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D502F7FF2262755D00085DE3 /* ViewController.swift in Sources */,
+				D588A4832273E445008EAB31 /* requestViewController.swift in Sources */,
+				D588A4802270F255008EAB31 /* ProfileViewController.swift in Sources */,
+				D502F82D2262840800085DE3 /* LoginViewController.swift in Sources */,
 				D502F7FD2262755D00085DE3 /* AppDelegate.swift in Sources */,
+				D502F8312263B77200085DE3 /* signupViewController.swift in Sources */,
+				D54AA9412267B79B00070F9F /* JobsViewController.swift in Sources */,
+				D502F82F2263B57100085DE3 /* homeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +611,11 @@
 		};
 		D502F8222262755F00085DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F76869859EAD7CE6B58C2B /* Pods-TimeBankOfficial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88P9PF3NP6;
 				INFOPLIST_FILE = TimeBankOfficial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +630,11 @@
 		};
 		D502F8232262755F00085DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA80CACB8AED1B318CC5B394 /* Pods-TimeBankOfficial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88P9PF3NP6;
 				INFOPLIST_FILE = TimeBankOfficial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +649,7 @@
 		};
 		D502F8252262755F00085DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721B61E6DC2C28597BFF91CC /* Pods-TimeBankOfficialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +670,7 @@
 		};
 		D502F8262262755F00085DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5E8DB6DF1F66B5F3B5BCFD /* Pods-TimeBankOfficialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +691,7 @@
 		};
 		D502F8282262755F00085DE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 163CFB843106CDE6362581CB /* Pods-TimeBankOfficialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +711,7 @@
 		};
 		D502F8292262755F00085DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962E910DE26DD8822F120397 /* Pods-TimeBankOfficialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
